@@ -1,0 +1,156 @@
+.form-builder-container {
+  min-height: 100vh;
+  background-color: #f5f7fa;
+}
+
+.form-builder-header {
+  background: white;
+  padding: 20px 40px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-builder-header h1 {
+  color: #333;
+  font-size: 28px;
+}
+
+.back-btn {
+  background: #6c757d;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.back-btn:hover {
+  background: #5a6268;
+}
+
+.save-btn {
+  background: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.save-btn:hover {
+  background: #218838;
+}
+
+.form-builder-main {
+  padding: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.form-info {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.form-title-input {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  border: 2px solid transparent;
+  background: transparent;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.form-title-input:focus {
+  border-color: #667eea;
+  background: white;
+}
+
+.form-description-input {
+  font-size: 16px;
+  color: #666;
+  border: 2px solid transparent;
+  background: transparent;
+  width: 100%;
+}
+
+.form-description-input:focus {
+  border-color: #667eea;
+  background: white;
+}
+
+.questions-section {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.questions-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.questions-header h3 {
+  color: #333;
+  font-size: 22px;
+}
+
+.add-question-btn {
+  background: #007bff;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.add-question-btn:hover {
+  background: #0056b3;
+}
+
+.add-question-form {
+  background: #f8f9fa;
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  border: 1px solid #e9ecef;
+}
+
+.add-question-form h4 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.add-question-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.add-question-form .form-group:last-child {
+  grid-column: 1 / -1;
+}
+
+.questions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.no-questions {
+  text-align: center;
+  padding: 40px 20px;
+  color: #666;
+}
+
+.no-questions p {
+  font-size: 16px;
+}
